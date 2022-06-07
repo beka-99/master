@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+}
+a.a:hover{
+  text-decoration: none;
+
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+
+}
+@mixin btn{
+  background:
+          #02897A;
+  border-radius:1px ;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 20px;
+  transition: .1s;
+  cursor: pointer ;
+  &:hover {
+    background: transparent;
+    color: black;
+    border: 1px solid #305675;
+    transform: scale(1.1);
+  }
+  }
+
